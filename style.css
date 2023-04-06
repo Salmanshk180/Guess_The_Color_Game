@@ -1,0 +1,60 @@
+body{
+    background-color: white
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#colorName{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 60px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.btn{
+    height: 170px;
+    width:170px;
+    border-radius: 10%;
+    cursor: pointer;
+   
+}
+
+.btn:hover{
+   border-width: 5px;
+}
+
+#re{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#replay{
+    height: 30px;
+    width: 120px;
+    font-size: larger;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#replay:hover{
+    background-color: gold;
+    color: black;
+}
